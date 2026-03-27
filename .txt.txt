@@ -1,0 +1,80 @@
+# Curso Sistmas Operacionais - 90h (120Aulas)
+## Módulo 1 - Introdução a Sistemas Operacionais 
+### Aula 2 - Sistemas Operacionais e Sistemas de Arquivos 
+- O que é Sistema Operacional
+    - Kernell
+    - Shell 
+    - Programas 
+    - Interfaces:
+        - GUI
+        - CLI
+- Sistemas de Arquivos 
+    - Tipos de Amazenamentos 
+    - Sistemas de Armazenamento    
+         - FAT32
+         - NTFS
+         - EXT4
+         - APFS
+- Tipos de Sistemas Operacionais
+    - Codigo Fechado (Licença de Uso)
+        - Win MacOs (IOS Celular)
+    - Código Aberto (CopyLeft)
+        - Linux (Diversas Distros)
+        - Android (Sistema Google é Fechao)
+
+## Módulo 2 - Sistema Operacional de Código Fechado Windows
+### Introdução ao Ecossistema Windows
+
+- Histórico
+    - MS-DOS (Sistema CLI)
+    - Win 95 e 98 (Cascata sobre MS-DOS)
+    - Win XP (Baseadi no NT)
+        - Insterface GUI Mais Robusta 
+    - Win Vista, 7, 8, 8.1 (Bade no Nt)
+    - Win 10, Win 11 (Mais Recente)
+- Tipos de Licença
+    - OEM: Licença instalada na máquina, Morre junto com a máquina
+    - FPP: Usuário compra uma licença de 25 digítos, pode ser tranferida de uma máquina para outra, só pode ser usada em uma máquina por vez
+    - VL: Licença para Empresas, comprada pelo nº  de computadores que a empresa tem.
+- Dowloads do Win 
+    - Baixar ISO (Formato para Fazer Boot) diretamente do Site da Microsoft
+    - Instalar o Meadia Create Tool
+        - Baixar ISO e Criar Pendrive Bootável
+    - Usar o Assistente 
+        - Atualiza o sistema da Máquina Atual
+- Virtualização 
+    - Virtualizção de Hardware (Profissional)
+        - Usada em Servidores para Criar Vários Sistemas Operacionais em uma Úbica Màquina
+        - Sistema em Desuso (Sistema em Buvem Vem Ganhando Mercado)
+    - Vistualização de SO ( Host / Guest)
+        - Criação de Guest (VM)
+    - Quando Usar Virtualização  
+        - Ultilização de Sistema Antigos, Precisa Rodar SO mais Antigo
+        - Teste de Sistemas Operacionais (Linux, Android e IOS)
+- Instalação de SO em Mundo Real
+    - Baixar ISO
+    - Ultilizar Rufos Para Criar um Pendrive Bootável (Inicializàvel)
+    - Permite a Instalação de SO em Diversas Máquinas de Forma Rápida
+    - Ultilização de Softwares de Clonagem 
+        - Wimpe, Ghost, Clonezilla
+        - Permite a Cópia de Máquina Já Configuradas (Com SO e Softwares Instalados)
+
+### Operação em Modo Gráfico (GUI)
+- Dualidade de Interface
+    - Menu de Configuração (UWP): voltando para a experiência de Usuário
+    - Painel de Controle(win32): motor de Sistema, configurações mais Avançadas
+
+- Métricas de Desempenho:
+    - Gargalo do Sistema:
+        - CPU:
+        - Disco:
+        - Memória: 
+            - Qando a memória atinge 100% - SWAP( Usar memódria de armazenamento para processamento) - melhor com SSD
+- Ferramentas de Administração e Gerenciamento
+    - diskmgmt.msc (Gerenciamento de Disco)
+        - FAT32 e NTFS (Controle de Acesso)
+    - Constrole de Acesso:
+        - Herança de Permissões: Pasta Herda as Caracteristícas da pasta Superior 
+        - Desabilitar Herança é negar acesso a todos os outro usuários
+        - Adicionar manualmente o Acesso
+        - Constrole total: "Cuidado"
